@@ -1,0 +1,16 @@
+```gitignore
+# Ignore log files
+*.log
+scan_log.txt
+
+# Ignore user config files
+log_config.json
+
+# Ignore pyinstaller build folders
+__pycache__/
+build/
+dist/
+*.spec
+
+# Quarantine folder (if you add it)
+WatchdogQuarantine/
